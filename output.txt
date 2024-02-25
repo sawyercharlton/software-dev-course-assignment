@@ -1,0 +1,31 @@
+first 3 rows: 
+      id  gender   age  hypertension  heart_disease ever_married      work_type Residence_type  avg_glucose_level   bmi   smoking_status  stroke
+0   9046    Male  67.0             0              1          Yes        Private          Urban             228.69  36.6  formerly smoked       1
+1  51676  Female  61.0             0              0          Yes  Self-employed          Rural             202.21   NaN     never smoked       1
+2  31112    Male  80.0             0              1          Yes        Private          Rural             105.92  32.5     never smoked       1
+
+summary: 
+                 id          age  hypertension  heart_disease  avg_glucose_level          bmi       stroke
+count   5110.000000  5110.000000   5110.000000    5110.000000        5110.000000  4909.000000  5110.000000
+mean   36517.829354    43.226614      0.097456       0.054012         106.147677    28.893237     0.048728
+std    21161.721625    22.612647      0.296607       0.226063          45.283560     7.854067     0.215320
+min       67.000000     0.080000      0.000000       0.000000          55.120000    10.300000     0.000000
+25%    17741.250000    25.000000      0.000000       0.000000          77.245000    23.500000     0.000000
+50%    36932.000000    45.000000      0.000000       0.000000          91.885000    28.100000     0.000000
+75%    54682.000000    61.000000      0.000000       0.000000         114.090000    33.100000     0.000000
+max    72940.000000    82.000000      1.000000       1.000000         271.740000    97.600000     1.000000
+
+missing data:
+id                     0
+gender                 0
+age                    0
+hypertension           0
+heart_disease          0
+ever_married           0
+work_type              0
+Residence_type         0
+avg_glucose_level      0
+bmi                  201
+smoking_status         0
+stroke                 0
+dtype: int64
