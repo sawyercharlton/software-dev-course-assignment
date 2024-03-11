@@ -1,0 +1,21 @@
+Mean f1 scores:
+Random Forest mean : 0.9413474285040188
+SVM mean : 0.8833175590026986
+Logistic Regression mean : 0.8321317558503452
+Mean f1 scores:
+RF mean : 0.15010141987829614
+SVM mean : 0.15702479338842976
+LR mean : 0.19348659003831417
+              precision    recall  f1-score   support
+
+           0       0.96      0.92      0.94      3404
+           1       0.12      0.21      0.15       173
+
+    accuracy                           0.88      3577
+   macro avg       0.54      0.57      0.54      3577
+weighted avg       0.92      0.88      0.90      3577
+
+Accuracy Score:  0.8828627341347498
+
+CatBoost Best Parameters: {'depth': 4, 'iterations': 100, 'learning_rate': 0.1, 'loss_function': 'Logloss'}
+CatBoost Best Accuracy: 0.9518590998043053
